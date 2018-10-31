@@ -1,1 +1,1 @@
-##Subset sum usando Javascript e NodeJs.
+Subset sum usando Javascript e NodeJs.

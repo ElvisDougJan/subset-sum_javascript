@@ -1,12 +1,12 @@
 const array = [17, 2, 8, 34, 4, 0.5, 42, 6, 3, 7, 15, 14, 9]
-const sum = 15
+const sum = 110
 
 let result = null
 
 const subset_sum = (array, soma, resultado_parcial) => {
 
   resultado_parcial = resultado_parcial || []
-  soma_temp = resultado_parcial.reduce((a, b) => a + b, 0)
+  let soma_temp = resultado_parcial.reduce((a, b) => a + b, 0)
 
   if (soma_temp > soma) return null
 
